@@ -1,2 +1,2 @@
-# visualizing-data-2020
-Intro to Visualizing Data
+# Show Me Your Data!
+Session for NAHJ 2020
