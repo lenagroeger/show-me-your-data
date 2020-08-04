@@ -18,124 +18,65 @@ body {
 }
 
 .reveal h2 {
-font-weight: bold;
-color:#000;
-display: block;
-clear: both;
-border-bottom: 0px;
-font-size: 135px;
+	font-weight: bold;
+	color:#000;
+	display: block;
+	clear: both;
+	border-bottom: 0px;
+	font-size: 135px;
 }
 
 .reveal h1 {
   line-height: 1em;
-  font-size: 245px;
+  font-size: 7em;
   font-weight: bold;
-display: block;
-clear: both;
-border-bottom: 0px;
-color:#fff;
-
+	display: block;
+	clear: both;
+	border-bottom: 0px;
 }
-
-.reveal h1.extra {
-  font-size: 300px
-}
-
-.reveal h1.extra.orange {
-  color:#940000;
-}
-
-.reveal .main-section h2 {
-  color:#000;
-}
-
-.reveal .main-section h3 {
-  color:#fff;
-  font-size: 55px
-}
-
-.reveal .slides>section.header-section {
-      background: #000;
-}
-
-.reveal .header-section h2 {
-  color:#fff;
-}
-
-.reveal .header-section h3 {
-  color:#cb8435;
-  font-size: 55px
-}
-
 
 .reveal h3 {
   font-weight: 300;
   display: block;
-  font-size: 80px;
-  color: #fff;
-  font-weight: 400;
+  font-size: 4em;
+  font-weight: 800;
   margin-bottom: 20px
 }
 
-
 .reveal p {
   color:#000;
-  font-size: 34px;
+  font-size: 1.7em;
   font-weight: normal;
   text-shadow: 0px 0px 6px rgba(0,0,0,0.2);
-  width: 80%;
   margin:auto;
-  line-height: 1.6em
+  line-height: 1.6em;
+  margin-bottom: 20px
 }
 
-.reveal section > a {
-  margin-top:50px;
-  display: block;
+.reveal section {
+  padding-top: 5%;
+  background: #849ba5;
 }
+
 
 .reveal section img {
--webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0);
--moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0);
-box-shadow: 0 0 10px rgba(0, 0, 0, 0);
-max-width: 100%;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+	max-width: 90%;
 }
 
-.reveal .slides>section {
-  color:#cecece;
-  padding-top: 9%;
-  background: #6d92a2;
-  }
-
-.reveal .slides>section.protip {
-  background: #fff
+.reveal .main-section h2, .reveal .main-section h3 {
+  color:#fff;
 }
 
-.reveal .sliders>section.topic {
-  background: rgb(187, 107, 0);
+.reveal .main-section p {
+	margin-bottom: 0px
 }
 
-.background {
-background: #fff;
-position: absolute;
-width: 100%;
-height: 100%;
-
-}
-
-.reveal h1.invisible{
-  color: #6d92a2;
-  text-shadow: 0px 0px 30px rgba(0,0,0,.3);
-}
-.reveal h5 span {
-  font-size: 25px;
-  text-transform: uppercase;
-  color:#cb8435;
-  clear: both;
-  display: inline-block;
-}
-.double img {
-  float: left;
-  margin-right: 30px
+.reveal .main-section {
+	background: #e8c460;
+	padding-top: 10%
 }
 
 .reveal h4 {
@@ -145,74 +86,332 @@ height: 100%;
   line-height: 1.4em
 }
 
-.reveal h4 span {
-  font-size: 25px;
-  text-transform: uppercase;
-  color:#fff;
-  clear: both;
-  display: inline-block;
-}
-
-section div.double-wide {
-    float: left;
-    width: 50%;
-    text-align: left;
-    padding-top: 40px
-}
-
-section div.double-wide img{
-  float: right;
-}
-
 .reveal .slides>section.intro-page {
-  background: url("imgs/colors.gif") no-repeat top left;
+  background: url("imgs/nyc_subway_map_light.jpg") no-repeat top left;
   background-size: 100%;
-
-
 }
 
 .intro-page h1 {
   margin-top: 120px;
 }
+
+.reveal p.quote {
+	font-style: italic;
+	background: #fff;
+	border-radius: 10px;
+	padding:20px 20px 20px 30px;
+}
+
+
 </style>
   </head>
 
 
   <body>
     <div class="reveal">
-      <div class="background"></div>
       <div class="slides">
 
         <section class="intro-page">
-
           <h1>Visualizing</h1>
           <h3>Data</h3>
         </section>
 
        
         <section>
-          <h3></h3>
+          <img src="imgs/chartofcharts.jpg">
         </section>
 
         <section>
-          <h3></h3>
-          <img src="imgs/">
+          <img src="imgs/chartofcharts_highlight.jpg">
         </section>
 
         <section>
-          <h3></h3>
-          <img src="imgs/">
+          <img src="imgs/Cleveland-and-McGill.jpg">
+        </section>
+
+       <section>
+          <img src="imgs/scales.jpg">
+        </section>
+
+       <section class="main-section">
+         <h2>Bars</h2>
+         <div>
+	         	<p>Classic form</p>
+	         	<p>Precise comparisons</p>
+	         	<p>Distinct data</p>
+				 </div>
+       </section>
+
+       <section>
+          <img src="imgs/bar.png">
+        </section>
+
+
+       <section>
+          <img src="imgs/espn.jpg">
+        </section>
+       
+        <section>
+          <img src="imgs/tylenol.png">
+        </section>
+
+ 				<section>
+          <img src="imgs/hispanics.png">
+        </section>
+
+        <section>
+         	<p class="quote">There’s a strand of the data viz world that argues that everything could be a bar chart. That’s possibly true but also possibly a world without joy.</p>
+         	<p>- Amanda Cox</p>
         </section>
 
 
        <section class="main-section">
-          <h2>TK</h2>
-          <h3>TK TK  </h3>
-          <img src="imgs/">
+         <h2>Lines</h2>
+         <div>
+	         	<p>Classic form</p>
+						<p>Show trends</p>
+						<p>Good for comparing over time </p>
+						<p>Continuous data</p>
+				 </div>
+       </section>
+
+       <section>
+          <img src="imgs/stocks.png">
         </section>
+
+        <section>
+          <a href="https://www.nytimes.com/interactive/2017/06/05/upshot/opioid-epidemic-drug-overdose-deaths-are-rising-faster-than-ever.html" target="_blank"><img src="imgs/drugdeaths.jpg"></a>
+        </section>
+
+        <section>
+          <img src="imgs/whale.jpg">
+        </section>
+
+        <section>
+          <a href="https://archive.nytimes.com/www.nytimes.com/interactive/2009/11/06/business/economy/unemployment-lines.html?_" target="_blank"><img src="imgs/joblessrate.png"></a>
+        </section>
+
+
+       <section>
+         <img src="imgs/stackedline.png">
+       </section>
+
+
+        <section>
+        	<h3>Bar vs Line</h3>
+         <img src="imgs/bar_vs_line.jpg">
+       </section>
+
+
+       <section class="main-section">
+         <h2>Pie</h2>
+         <div>
+	         	<p>Parts of a whole</p>
+	         	<p>Use sparingly</p>
+	         	<p>Only use to compare 2 (max 3) things</p>
+				 </div>
+       </section>
+
+       <section>
+         <img src="imgs/pie.jpg">
+       </section>
+
+       <section>
+         <img src="imgs/badpie.jpg">
+       </section>
+
+       <section>
+         <img src="imgs/badpie2.png">
+       </section>
+
+       <section>
+         <a href="https://www.darkhorseanalytics.com/portfolio/2016/1/7/data-looks-better-naked-pie-charts" target="_blank"><img src="imgs/piechart.gif"></a>
+       </section>
+
+       <section class="main-section">
+         <h2>Waffle</h2>
+         <div>
+	         	<p>Parts of a whole</p>
+	         	<p>Show composition</p>
+				 </div>
+       </section>
+
+       <section>
+         <img src="imgs/waffle.jpg">
+       </section>
+
+       <section>
+         <img src="imgs/dollarsdrones.jpg">
+       </section>
+
+        <section class="main-section">
+         <h2>Scatterplot</h2>
+         <div>
+	         	<p>Showing relationships</p>
+	         	<p>Individual data points</p>
+				 </div>
+       </section>
+
+       <section>
+         <img src="imgs/admissions.png">
+       </section>
+
+       <section>
+         <a href="https://archive.nytimes.com/www.nytimes.com/interactive/2009/03/01/business/20090301_WageGap.html?8dpc" target="_blank"><img src="imgs/paycheck.jpg"></a>
+       </section>
+        
+       <section>
+         <a href="https://www.nytimes.com/interactive/2016/07/05/upshot/is-sushi-healthy-what-about-granola-where-americans-and-nutritionists-disagree.html" target="_blank"><img src="imgs/nutrition.jpg"></a>
+       </section>
 
        
 
+       <section>
+       	  <p>200 Countries, 200 Years, 4 Minutes</p>
+          <a href="https://www.youtube.com/watch?v=jbkSRLYSojo" target="_blank"><img src="imgs/rosling.png"></a>
+        </section>
+
+
+        
+
+       <section class="main-section">
+         <h2>Small Multiples</h2>
+         <div>
+	         	<p>Repetition</p>
+	         	<p>Compare small changes</p>
+				 </div>
+       </section>
+
+       <section>
+         <img src="imgs/horse.png">
+       </section>
+
+       <section>
+         <img src="imgs/weather.png">
+       </section>
+
+
+      <!--  <section>
+         <a href="https://archive.nytimes.com/www.nytimes.com/interactive/2012/07/20/us/drought-footprint.html?_r=0" target="_blank"><img src="imgs/drought.jpg"></a>
+       </section>
+ -->
+       <section>
+         <a href="https://www.latimes.com/local/lanow/la-me-g-california-drought-map-htmlstory.html" target="_blank"><img src="imgs/caldrought.jpg"></a>
+
+       </section>
+
+       <section>
+         <a href="https://www.npr.org/2015/04/01/396757476/the-neighborhood-wal-mart-a-blessing-or-a-curse" target="_blank"><img src="imgs/walmart.jpg"></a>
+       </section>
+
+       <section>
+         <a href="https://projects.propublica.org/graphics/lost-cause" target="_blank"><img src="imgs/lostcause.png"></a>
+       </section>
+
+        <section>
+         <a href="https://projects.propublica.org/graphics/civil-rights-violations" target="_blank"><img src="imgs/civilrights.jpg"></a>
+       </section>
+
+
+       <section class="main-section">
+         <h2>Maps</h2>
+         <div>
+	         	<p>Geographic information </p>
+       			<p>Place & Location is important </p>
+       			<p>Compare countries/states/cities</p>
+				 </div>
+       </section>
+
+
+
+       <section>
+         <img src="imgs/election.png">
+       </section>
+
+       <section>
+         <img src="imgs/babyname.gif">
+       </section>
+
+       <section>
+         <img src="imgs/audit.png">
+       </section>
+
+      
+       <section>
+         <img src="imgs/xkcd.png">
+       </section>
+
+
+
+       <section>
+         <img src="imgs/cartogram1.jpg">
+       </section>
+
+       <section>
+         <img src="imgs/cartogram2.jpg">
+       </section>
+
+
+       <section>
+         <a href="https://projects.propublica.org/bombs/" target="_blank"><img src="imgs/bombs.png"></a>
+       </section>
+
+       <section>
+         <img src="imgs/chicago.png">
+       </section>
+
+       <section>
+       		<p>Jeff's Nuke Map</p>
+          <a href="http://thejefflarson.s3.amazonaws.com/nuke-map/index.html" target="_blank"><img src="imgs/nuke.jpg"></a>
+          
+        </section>
+    
+
+
+     	<section>
+         <a href="https://www.washingtonpost.com/graphics/2018/national/segregation-us-cities/?utm_term=.ba65226fa140"><img src="imgs/diversity.jpg"></a>
+       </section>
+      
+
+       <section class="main-section">
+         <h2>Name That Chart Form!</h2>
+       </section>
+
+       <section>
+         <img src="imgs/guess-bar2.jpg">
+       </section>
+
+       
+
+       <section>
+        <a href="https://www.nytimes.com/interactive/2016/04/29/upshot/money-race-and-success-how-your-school-district-compares.html" target="_blank"> <img src="imgs/guess-scatter.jpg"></a>
+       </section>
+
+ 
+       <section>
+         <img src="imgs/guess-cartogram.jpg">
+       </section>
+       
+
+       <section>
+         <img src="imgs/guess-map.jpg">
+       </section>
+
+       <section>
+         <img src="imgs/guess-smallmulti.jpg">
+       </section>
+
+
+       <section class="main-section">
+         <h2>Other Chart Forms</h2>
+         <div>
+	         	<p>There are so many...</p>
+				 </div>
+       </section>
+
+       <section>
+         <a href="https://archive.nytimes.com/www.nytimes.com/interactive/2010/02/26/sports/olympics/20100226-olysymphony.html?_r=1" target="_blank"><img src="imgs/musical.png"></a>
+       </section>
 
 
    </div>
